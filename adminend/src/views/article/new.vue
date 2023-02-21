@@ -151,7 +151,7 @@ export default {
         },
         getArticle(id) {
             this.$api.article.getArticleDetails({ id }).then((res) => {
-                console.log();
+                console.log(res);
                 this.content = res;
                 this.top_pic = res.top_pic;
                 var that = this;
