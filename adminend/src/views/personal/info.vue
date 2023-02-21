@@ -74,6 +74,7 @@ export default {
         getInfo() {
             this.$api.personal.getInfo().then((res) => {
                 this.data = res;
+                console.log(this.data);
             });
         },
         saveInfo() {
@@ -100,7 +101,7 @@ ul {
 
 .top {
     margin: 15px;
-    background: url(https://api.qblog.cc/uploads/top_pic/20210722/5c9d96b4250384a2a741be5779d2b27c.jpg)
+    background: url(../../assets/top_pic/20210722/5c9d96b4250384a2a741be5779d2b27c.jpg)
         no-repeat;
     height: 335px;
     border-radius: 4px;

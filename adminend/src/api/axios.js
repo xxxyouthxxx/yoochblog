@@ -4,8 +4,7 @@ import { Message } from 'element-ui'
 import setting from '@/config/setting'
 import store from '@/store'
 
-axios.defaults.baseURL = "http://localhost:9249/"
-console.log(axios.defaults.baseURL);
+axios.defaults.baseURL = setting.baseURL
 axios.defaults.timeout = 50000
 axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
 axios.defaults.headers.common['Authorization'] = store.state.token;

@@ -78,7 +78,6 @@ export default {
                                     this.$api.system
                                         .getSystem()
                                         .then((resp) => {
-                                            console.log(resp);
                                             this.$store
                                                 .dispatch("setSystem", resp)
                                                 .then(() => {
@@ -88,7 +87,7 @@ export default {
                                 });
                         });
                         this.$message({
-                            type: res.type,
+                            type: res.data.type,
                             message: res.info,
                             center: true,
                         });
