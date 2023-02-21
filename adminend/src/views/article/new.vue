@@ -151,6 +151,7 @@ export default {
         },
         getArticle(id) {
             this.$api.article.getArticleDetails({ id }).then((res) => {
+                console.log();
                 this.content = res;
                 this.top_pic = res.top_pic;
                 var that = this;
@@ -199,7 +200,7 @@ export default {
 
             // 
 
-            console.log(content.content);
+            console.log(content);
             if (!content.title) {
                 this.$message({
                     message: "请输入文章标题",
