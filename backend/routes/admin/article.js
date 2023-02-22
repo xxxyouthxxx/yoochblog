@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var connection = require('../config/dbconfig')
+var connection = require('../../config/dbconfig')
 /* GET home page. */
 router.post('/cats', (req, res) => {
     let param = req.body;

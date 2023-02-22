@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var connection = require('../config/dbconfig')
+var connection = require('../../config/dbconfig')
 router.post('/getCommentList', (req, res) => {
     connection.query('SELECT * FROM yooch_remark ORDER BY id DESC', (err, data) => {
         if (err) {

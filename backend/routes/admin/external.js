@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var connection = require('../config/dbconfig');
+var connection = require('../../config/dbconfig');
 
 router.post('/hitokoto', (req, res) => { 
   connection.query('SELECT * FROM yochhitokoto', (err, rows) => {

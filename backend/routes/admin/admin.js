@@ -2,7 +2,7 @@ var express = require('express');
 var mysql = require('mysql')
 var crypto = require('crypto')
 var jwt = require('jsonwebtoken');
-var connection = require('../config/dbconfig')
+var connection = require('../../config/dbconfig')
 var router = express.Router();
 // 定义get_pasword方法
 function get_pasword(password,  encrypt = '') {

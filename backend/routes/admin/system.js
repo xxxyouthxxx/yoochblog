@@ -1,5 +1,5 @@
 var express = require('express');
-const connection = require('../config/dbconfig');
+const connection = require('../../config/dbconfig');
 var router = express.Router();
 /* GET home page. */
 

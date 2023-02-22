@@ -3,6 +3,6 @@
  */
 export default {
     // baseURL: "https://api.qblog.cc", // 后端 api 接口
-    baseURL: "http://localhost:9249/", // 后端 api 接口
+    baseURL: "http://localhost:9249/admin/", // 后端 api 接口
     baseUloads: "/admin/common/upload", // 上传接口
 };

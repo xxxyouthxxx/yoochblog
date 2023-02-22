@@ -7,15 +7,15 @@ var cors = require('cors');
 
 var connection = require('./config/dbconfig')
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var systemRouter = require('./routes/system')
-var dashboardRouter = require('./routes/dashboard')
-var personalRouter = require('./routes/personal')
-var articleRouter = require('./routes/article')
-var commentRouter = require('./routes/comment')
-var pagesRouter = require('./routes/pages')
-var linkRouter = require('./routes/link')
-var extRouter = require('./routes/external')
+var usersRouter = require('./routes/admin/users');
+var systemRouter = require('./routes/admin/system')
+var dashboardRouter = require('./routes/admin/dashboard')
+var personalRouter = require('./routes/admin/personal')
+var articleRouter = require('./routes/admin/article')
+var commentRouter = require('./routes/admin/comment')
+var pagesRouter = require('./routes/admin/pages')
+var linkRouter = require('./routes/admin/link')
+var extRouter = require('./routes/admin/external')
 // express中操作mysql用的是mysql模块
 var app = express();
 
@@ -39,15 +39,15 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/index', indexRouter);
-app.use('/users', usersRouter);
-app.use('/system', systemRouter)
-app.use('/dashboard', dashboardRouter)
-app.use('/personal', personalRouter)
-app.use('/article', articleRouter)
-app.use('/comment', commentRouter)
-app.use('/pages', pagesRouter)
-app.use('/link', linkRouter)
-app.use('/external', extRouter)
+app.use('/admin/users', usersRouter);
+app.use('/admin/system', systemRouter)
+app.use('/admin/dashboard', dashboardRouter)
+app.use('/admin/personal', personalRouter)
+app.use('/admin/article', articleRouter)
+app.use('/admin/comment', commentRouter)
+app.use('/admin/pages', pagesRouter)
+app.use('/admin/link', linkRouter)
+app.use('/admin/external', extRouter)
 // 跨域设置
 app.all("*", function (req, res, next) {
 	//设置允许跨域的域名，*代表允许任意域名跨域

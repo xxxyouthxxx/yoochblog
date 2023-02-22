@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var connection = require('../config/dbconfig');
+var connection = require('../../config/dbconfig');
 router.post('/addPage', (req, res) => {
     let param = req.body;
     param.add_time = Math.floor(Date.now()/1000);
