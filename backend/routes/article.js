@@ -2,9 +2,47 @@ var express = require('express');
 var router = express.Router();
 var connection = require('../config/dbconfig')
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-})
+router.post('/cats', (req, res) => {
+    let param = req.body;
+    if (param.status && param.id) {
+        let sql = `UPDATE cats SET status = ? WHERE id = ?`;
+        let data = [param.status, param.id];
+        connection.query(sql, data, (err, result) => {
+            if (err) throw err;
+            res.json({
+                ret: 200,
+                data: '修改成功'
+            });
+        });
+    }
+    if (param.name) {
+        let sql = `SELECT * FROM cats WHERE name = ? ORDER BY sort ASC`;
+        let data = [param.name];
+        connection.query(sql, data, (err, result) => {
+            if (err) throw err;
+            res.json({
+                ret: 200,
+                data: result
+            });
+        });
+    }
+    let sql = `SELECT id, pid, name, icon, path, status, sort, Introduction, type, addtime FROM yooch_cats WHERE pid = 0 ORDER BY sort ASC`;
+    connection.query(sql, (err, result) => {
+        if (err) throw err;
+        for (let i = 0; i < result.length; i++) {
+            let sql = `SELECT id, pid, name, icon, path, status, sort, Introduction, type, addtime FROM yooch_cats WHERE pid = ? ORDER BY sort ASC`;
+            let data = [result[i].id];
+            connection.query(sql, data, (err, children) => {
+                if (err) throw err;
+                result[i].children = children;
+            });
+        }
+        res.json({
+            ret: 200,
+            data: result
+        });
+    });
+});
 router.post('/getCats', function(req, res, next) {
     connection.query('SELECT id,name FROM yooch_cats WHERE pid = 0 AND type = 1 ORDER BY sort asc', (err, rows) => {
         if (err) {
