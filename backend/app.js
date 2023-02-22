@@ -4,9 +4,14 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
-
+// 前端接口
 var connection = require('./config/dbconfig')
-var indexRouter = require('./routes/index');
+var indexRouter = require('./routes/front/index');
+var frontSystemRouter = require('./routes/front/system')
+var frontArticleRouter = require('./routes/front/article')
+var frontExternal = require('./routes/front/external')
+var frontComment = require('./routes/front/comment')
+//	管理端接口
 var usersRouter = require('./routes/admin/users');
 var systemRouter = require('./routes/admin/system')
 var dashboardRouter = require('./routes/admin/dashboard')
@@ -39,6 +44,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/index', indexRouter);
+app.use('/system', frontSystemRouter)
+app.use('/article', frontArticleRouter)
+app.use('/external', frontExternal)
+app.use('/comment', frontComment)
+
 app.use('/admin/users', usersRouter);
 app.use('/admin/system', systemRouter)
 app.use('/admin/dashboard', dashboardRouter)
