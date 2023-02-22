@@ -20,5 +20,14 @@ router.post('/getInfo' , function(req, res, next) {
         });
     })
 })
-
+router.post('/saveInfo', function(req, res) {
+    const param = req.body;
+    connection.query('INSERT INTO yooch_info SET ? ON DUPLICATE KEY UPDATE ?', [param, param], function(err, result) {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      res.json({ret: 200, data: '保存成功'});
+    });
+  });
 module.exports = router;

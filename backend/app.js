@@ -12,6 +12,10 @@ var systemRouter = require('./routes/system')
 var dashboardRouter = require('./routes/dashboard')
 var personalRouter = require('./routes/personal')
 var articleRouter = require('./routes/article')
+var commentRouter = require('./routes/comment')
+var pagesRouter = require('./routes/pages')
+var linkRouter = require('./routes/link')
+var extRouter = require('./routes/external')
 // express中操作mysql用的是mysql模块
 var app = express();
 
@@ -40,6 +44,10 @@ app.use('/system', systemRouter)
 app.use('/dashboard', dashboardRouter)
 app.use('/personal', personalRouter)
 app.use('/article', articleRouter)
+app.use('/comment', commentRouter)
+app.use('/pages', pagesRouter)
+app.use('/link', linkRouter)
+app.use('/external', extRouter)
 // 跨域设置
 app.all("*", function (req, res, next) {
 	//设置允许跨域的域名，*代表允许任意域名跨域

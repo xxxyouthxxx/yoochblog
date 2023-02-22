@@ -100,14 +100,16 @@
                             ></el-input>
                         </el-form-item>
                         <el-form-item label="状态" label-width="80px">
+                            <!-- <el-tooltip :content="'Switch value: ' + form.status" placement="top"> -->
                             <el-switch
                                 v-model="form.status"
                                 active-color="#13ce66"
                                 inactive-color="#ff4949"
-                                :active-value="1"
-                                :inactive-value="0"
+                                :active-value=1
+                                :inactive-value=0
                             >
                             </el-switch>
+                        <!-- </el-tooltip> -->
                         </el-form-item>
                     </el-col>
                 </el-form>
@@ -128,7 +130,8 @@ export default {
         return {
             data: [],
             dialogFormVisible: false,
-            form: {},
+            form: {
+            },
             rules: {
                 title: [
                     {
@@ -180,7 +183,8 @@ export default {
             this.dialogFormVisible = true;
         },
         addLink(form) {
-            this.$api.link.addLink(form).then((res) => {
+            console.log(this.form[0]);
+            this.$api.link.addLink(form[0]).then((res) => {
                 this.$message({
                     type: "success",
                     message: res,

@@ -12,15 +12,13 @@ router.post('/menu', (req, res) => {
           if (err) throw err;
           res.json({ ret: 200, data: '修改成功' });
       });
-  }
-  if (param.title) {
+  } else if (param.title) {
       const where = { title: param.title };
       connection.query('SELECT * FROM yooch_menu WHERE ? ORDER BY sort ASC', [where], (err, result) => {
           if (err) throw err;
           res.json({ ret: 200, data: result });
       });
-  }
-  if (param.key == 'route') {
+  }else if (param.key == 'route') {
       connection.query('SELECT id, pid, title, icon, path, status, sort, create_time FROM yooch_menu WHERE pid = 0 AND status = 1 ORDER BY sort ASC', (err, result) => {
           if (err) throw err;
           const data = result;
@@ -42,6 +40,7 @@ router.post('/menu', (req, res) => {
               connection.query('SELECT id, pid, title, icon, path, status, sort, create_time FROM yooch_menu WHERE pid = ? ORDER BY sort ASC', [data[i].id], (err, result) => {
                   if (err) throw err;
                   data[i].children = result;
+                  console.log(result)
                   if (i == data.length - 1) {
                       res.json({ ret: 200, data: data });
                   }
@@ -87,6 +86,19 @@ router.post('/siteSave', (req, res) => {
               msg: '保存成功'
           }
       });
+  });
+});
+router.post('/loginlog', (req, res) => {
+  const param = req.body;
+  let where;
+  if (param.user_name) {
+      where = { user_name: param.user_name };
+  } else {
+      where = {};
+  }
+  connection.query('SELECT * FROM yooch_login_log `WHERE` ?', [where], (err, result) => {
+      if (err) throw err;
+      res.json({ ret: 200, data: result });
   });
 });
 module.exports = router;

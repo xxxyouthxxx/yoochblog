@@ -11,10 +11,14 @@ function get_pasword(password,  encrypt = '') {
   pwd.password = crypto.createHash('md5').update(`${password}${pwd.encrypt}`).digest('hex')
   return encrypt ? pwd.password : pwd
 }
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-}); 
+function getRandomStr() {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let str = '';
+  for (let i = 0; i < 16; i++) {
+      str += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return str;
+}
 router.post('/login',function(req,res) {
   let param = req.body;
   let where = {
@@ -83,5 +87,45 @@ router.post('/login',function(req,res) {
   }
 })
 
+router.post('/list', (req, res) => {
+  const param = req.body;
+  const page = param.page || 1;
+  const where = { is_delect: 0 };
+  if (param.status && param.id) {
+      where.id = param.id;
+     connection.query('UPDATE yooch_users SET status = ? WHERE is_delect = 0 AND id = ?', [param.status, param.id], (err, result) => {
+    if (err) throw err;
+    res.json({ ret: 200, data: { msg: '修改成功' } });
+});
+  }
+  if (param.username) {
+      where.username = param.username;
+  }
+  connection.query('SELECT COUNT(*) AS total FROM yooch_users WHERE ?', [where], (err, result) => {
+      if (err) throw err;
+      const total = result[0].total;
+      if (total === 0) {
+          res.json({ ret: 200, total: 0, data: [] });
+      } else {
+          connection.query('SELECT id, nickname, username, avatar, status, identity, addtime, lasttime, addip, loginip FROM yooch_users WHERE ? ORDER BY id ASC LIMIT ?, 10', [where, (page - 1) * 10], (err, result) => {
+              if (err) throw err;
+              res.json({ ret: 200, total, data: result });
+          });
+      }
+  });
+});
 
+router.post('/save', (req, res) => {
+  const param = req.body;
+  if (param.password) {
+      param.salt = getRandomStr();
+      param.password = get_pasword(param.password, param.salt);
+  }
+  param.addtime = Math.floor(Date.now()/1000);
+  param.addip = '127.0.0.1';
+  connection.query('INSERT INTO yooch_users SET ?', param, (err, result) => {
+      if (err) throw err;
+      res.json({ ret: 200, data: { msg: '添加成功' } });
+  });
+});
 module.exports = router;
