@@ -151,8 +151,9 @@ export default {
         },
         getArticle(id) {
             this.$api.article.getArticleDetails({ id }).then((res) => {
-                console.log(res);
+                console.log('0',res);
                 this.content = res;
+                console.log('1',res);
                 this.top_pic = res.top_pic;
                 var that = this;
                 setTimeout(() => {
@@ -195,10 +196,6 @@ export default {
             console.log(catId);
             this.content.catId = catId;
             var content = this.content;
-
-            // 
-
-            // 
 
             console.log(content);
             if (!content.title) {

@@ -8,7 +8,7 @@
                     :style="isCollapse ? 'width:64px' : 'width:256px'"
                 >
                     <span :style="isCollapse ? 'display:none' : 'display:block'"
-                        >XQBLOG</span
+                        >YOOCHBLOG</span
                     >
                 </div>
                 <el-menu mode="horizontal" class="ele-header-left">

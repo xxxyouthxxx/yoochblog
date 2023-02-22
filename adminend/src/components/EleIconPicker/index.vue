@@ -100,6 +100,7 @@ export default {
       if (!this.keywords) return this.data;
       let result = [];
       this.data.forEach(item => {
+        console.log(item);
         result.push({title: item.title, icons: item.icons.filter(d => d.indexOf(this.keywords) !== -1)});
       });
       return result;
