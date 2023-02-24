@@ -1,7 +1,0 @@
-{
-    "git.ignoreLimitWarning": true,
-    "Codegeex.DisabledFor": {
-        "javascript": true
-    },
-    "Codegeex.EnableExtension": false
-}
