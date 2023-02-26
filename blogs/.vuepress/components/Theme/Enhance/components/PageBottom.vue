@@ -1,7 +1,7 @@
 <template>
     <div id="page-bottom">
-        <a class="rss" href="/rss.xml" target="_blank">RSS 订阅</a>
-        <a class="friends" href="/friends/" target="_blank">Friends &amp; Me</a>
+        <!-- <a class="rss" href="/rss.xml" target="_blank">RSS 订阅</a>
+        <a class="friends" href="/friends/" target="_blank">Friends &amp; Me</a> -->
     </div>
 </template>
 

@@ -1,10 +1,10 @@
 ---
 layout: Homepage
-description: 'Lionad Guirotar 的个人博客, 心流历程以及其它一些好玩的东西 | Lionad Blogs | Lionad-Guirotar Lionad-Morotar Lionad-RedOne'
-head: 'Lionad-Guirotar'
+description: 'Yooch 的个人博客, 记录建立起像素世界以及一些好玩的东西 | Yooch Blogs | Yooch-Pixel '
+head: 'Yooch-Pixel'
 url: '/articles'
 
-footer: Lionad-Guirotar / Made with 💗
+footer: Yooch-Pixel / Made with 💗
 ---
 
-前端偏甜工程师 | 午夜吉他恶魔 | 兴趣泛滥 | 逃离地球
+ 像素狂热 | 保持谦虚 | 不断进步

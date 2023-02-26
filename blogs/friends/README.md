@@ -2,7 +2,7 @@
 
 ## <spark>💌 与我联络</spark>
 
-我不喜欢嘈杂的社交网络。与我通讯的最佳方式是个人邮箱：1806234223【at】qq.com，欢迎来信~ 如果你对以下站点有兴趣的话，我们可以在以下网站进行相关话题的讨论交流。
+我不喜欢嘈杂的社交网络。与我通讯的最佳方式是个人邮箱：1042151752【at】qq.com，欢迎来信~ 如果你对以下站点有兴趣的话，我们可以在以下网站进行相关话题的讨论交流。
 
 <Background-Netease>
   <FriendLink
@@ -14,7 +14,7 @@
     :hoverTrigger="true"
   />
 </Background-Netease>
-
+<!-- 
 <Background-Douban>
   <FriendLink
     img="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/icons/douban.jpg"
@@ -24,7 +24,7 @@
     :nofollow="true"
     :hoverTrigger="true"
   />
-</Background-Douban>
+</Background-Douban> -->
 
 <FriendLink
   img="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/icons/github.svg"
@@ -37,7 +37,7 @@
 ## <spark>🏂 友情链接</spark>
 
 <!-- todo: 随机排序 -->
-<FriendLink
+<!-- <FriendLink
   img="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/friends/ryan4yin.jpg"
   src="https://thiscute.world/"
   name="於清樂"
@@ -72,16 +72,16 @@
   src="https://blog.renwangyu.com/"
   name="Renwangyu"
   achieve="保持童心的80后程序猿大叔 😀"
-/>
+/> -->
 <!-- <FriendLink
   img="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/friends/Deeruby.jpg"
   src="https://deeruby.com"
   name="Deeruby"
   achieve="易骏的博客 🍺"
 /> -->
-<FriendLink
+<!-- <FriendLink
   img="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/friends/Wrath.png"
   src="https://wrath.cc"
   name="Wrath"
   achieve="有一部漂亮的索尼手机 📱"
-/>
+/> -->

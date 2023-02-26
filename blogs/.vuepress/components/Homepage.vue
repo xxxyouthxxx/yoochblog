@@ -31,7 +31,7 @@
             <div class="wrapper wrapper-detail">
                 <div class="avatar">
                     <img
-                        src="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/avatar.gif"
+                        src="https://pic.imgdb.cn/item/63faf2daf144a01007c5728a.jpg"
                         alt="Lionad's Avatar"
                         draggable="false"
                     />
@@ -57,7 +57,6 @@
 
                 <div class="footer" v-if="data.footer">
                     <span>{{ data.footer }}<span class="seg"> / </span></span>
-                    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">沪ICP备2021001426号<span class="seg"> / </span></a>
                     <a href="/friends">与我联络 & 友情链接(Links)</a>
                 </div>
             </div>
@@ -67,7 +66,7 @@
         <Gesture :swipeDown="() => changeSlide('down')" freezeTime="300" :eventInvoke="stopMove">
             <div class="wrapper wrapper-brief">
                 <div class="page-title-con">
-                    <div class="page-title">Lionad's Blog</div>
+                    <div class="page-title">Yooch's Blog</div>
                     <div class="page-side-title">Newest Posts</div>
                     <div class="page-side-content">
                         <template v-for="article in recommends">

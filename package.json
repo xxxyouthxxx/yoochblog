@@ -18,6 +18,7 @@
   "dependencies": {
     "@vuepress/markdown": "^1.9.8",
     "debounce": "^1.2.1",
+    "less-loader": "^11.1.0",
     "qrcodejs2": "0.0.2",
     "vue-fragment": "^1.6.0"
   },
@@ -34,7 +35,6 @@
     "figlet": "^1.5.2",
     "http-server": "^14.1.1",
     "less": "^4.0.0",
-    "less-loader": "^11.1.0",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-implicit-figures": "^0.10.0",
     "markdown-it-toc-done-right": "^4.2.0",

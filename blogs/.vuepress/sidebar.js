@@ -8,10 +8,10 @@ console.log('USE NODE_ENV:', process.env.NODE_ENV)
 // let secretsDir = path.join(__dirname, '../secrets')
 // let mapsDir = path.join(__dirname, '../maps')
 
-let gistsDir = 'E:\\桌面\\存储仓库\\YoochBlog\\blogs\\gists'
-let awesomeDir = 'E:\\桌面\\存储仓库\\YoochBlog\\blogs\\awesome'
-let secretsDir = 'E:\\桌面\\存储仓库\\YoochBlog\\blogs\\secrets'
-let mapsDir = 'E:\\桌面\\存储仓库\\YoochBlog\\blogs\\maps'
+let gistsDir = 'E:\\桌面\\存储仓库\\GITEE\\yooch\\blogs\\gists'
+let awesomeDir = 'E:\\桌面\\存储仓库\\GITEE\\yooch\\blogs\\awesome'
+let secretsDir = 'E:\\桌面\\存储仓库\\GITEE\\yooch\\blogs\\secrets'
+let mapsDir = 'E:\\桌面\\存储仓库\\GITEE\\yooch\\blogs\\maps'
 
 /**
  * 获取目录下所有 Markdown 文件
@@ -35,7 +35,7 @@ const getSRCs = (src, prefix = '') => {
     // 在 Build 时会碰到这个莫名奇妙的错误，
     // 和 __dirname node 执行路径有关，
     // 可以不用管
-    console.error('Error in getSRCs : ', err)
+    // console.error('Error in getSRCs : ', err)
   }
   filenames.sort()
   return filenames.map(x => prefix + x)
@@ -43,23 +43,21 @@ const getSRCs = (src, prefix = '') => {
 
 const sidebars = [
   {
-    title: '心流思绪 / Heart Flows',
-    label: '心流思绪',
+    title: '像素王国 / PXIEL',
+    label: '项目公告',
     collapsable: false,
     open: true,
-    path: '/flows/',
+    path: '/pixel/',
     children: [
-      // 'flows/brain-history',
-      // 'flows/rss',
-      'flows/books',
-      'flows/long-night-dream',
-      'flows/everything',
-      'flows/stolen-time-from-god',
-      'flows/expression-and-loneliness',
-      'flows/my-shy',
-      'flows/drinking-while-thinking',
-      'flows/escape-from-mysticism',
-      'flows/zfold',
+      'pixel/red',
+      'pixel/orange',
+      'pixel/yellow',
+      'pixel/green',
+      'pixel/blue',
+      'pixel/purple',
+      // 'pixel/brown',
+      'pixel/black',
+      'pixel/white',
     ],
   },
   {
@@ -92,18 +90,24 @@ const sidebars = [
     ],
   },
   {
-    title: '玩乐广场 / Paint',
-    collapsable: true,
-    open: false,
-    path: '/awesome/',
-    children: getSRCs(awesomeDir, 'awesome/'),
-  },
-  {
-    title: '等待整理',
-    collapsable: true,
-    open: false,
-    path: '/gists/',
-    children: getSRCs(gistsDir, 'gists/'),
+    title: '心流思绪 / Heart Flows',
+    label: '心流思绪',
+    collapsable: false,
+    open: true,
+    path: '/flows/',
+    children: [
+      // 'flows/brain-history',
+      // 'flows/rss',
+      'flows/books',
+      'flows/long-night-dream',
+      'flows/everything',
+      'flows/stolen-time-from-god',
+      'flows/expression-and-loneliness',
+      'flows/my-shy',
+      'flows/drinking-while-thinking',
+      'flows/escape-from-mysticism',
+      'flows/zfold',
+    ],
   },
   {
     title: '知识骨架',
@@ -111,29 +115,7 @@ const sidebars = [
     open: false,
     path: '/maps/',
     children: getSRCs(mapsDir, 'maps/'),
-  },
-  {
-    title: '吉他剧场',
-    collapsable: true,
-    open: false,
-    path: '/music/',
-    children: [
-      'music/wait-for-wind',
-      'music/promise-ocean',
-      'music/wings-you-are-the-hero',
-      'music/eva',
-      'music/miracle-mountain',
-      'music/wu-wei',
-      'music/noname',
-    ],
-  },
-  {
-    title: 'Secrets',
-    collapsable: true,
-    open: true,
-    path: '/secrets/',
-    children: getSRCs(secretsDir, 'secrets/'),
-  },
+  }
 ]
 
 module.exports = {

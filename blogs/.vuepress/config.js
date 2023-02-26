@@ -23,13 +23,13 @@ module.exports = {
 
   /** page config */
 
-  title: 'Lionad Blog',
+  title: 'YoochBlog',
   description:
-    'Lionad Blog 是仿生狮子的个人专栏。其中有技术文章、杂文散文，或是狮子的个人动态。他是前端工程师，也是未来的独立游戏开发，此外他对设计、音乐和写作都颇感兴趣。如果你是 GitHub、豆瓣、Medium、CodePen 等网站的用户，相信你能在这找到一些乐趣。',
-  keywords: 'Lionad,Guirotar,仿生狮子,博客,写作,前端,设计,写作,游戏,指弹,吉他',
+    'Yooch Blog 是Yooch的个人专栏。其中有技术文章和一些个人动态。',
+  keywords: 'Yooxh,pixel,像素,开发,前端,游戏，开发进度',
   robots: 'index,archive',
-  author: 'Lionad|仿生狮子',
-  copyright: '转载请标明来源 www.lionad.art',
+  author: 'YOOCH',
+  copyright: '转载请标明来源',
   head: headLink,
 
   shouldPrefetch: false,
@@ -47,7 +47,6 @@ module.exports = {
       { text: 'Links', link: '/friends/' }
     ].concat(isDEV ? [
       { text: 'Maps', link: '/maps/' },
-      { text: 'Ideas', link: '/ideas/' },
       { text: 'HireMe', link: '/hire-me/' },
     ] : []),
     sidebar: {
@@ -123,7 +122,7 @@ module.exports = {
         el: '#valine-vuepress-comment',
         appId: 'mAwWAN2mioThMFBbJDSaCCrE-gzGzoHsz',
         appKey: '3D8pYGhizcGPlA8ibtS1Cpkw',
-        placeholder: '保持学习、保持怀疑、保持批判',
+        placeholder: '保持学习、不断进步、保持谦虚',
         avatar: 'robohash',
         pageSize: '50',
         highlight: false,
