@@ -4,7 +4,7 @@
 
 我不喜欢嘈杂的社交网络。与我通讯的最佳方式是个人邮箱：1042151752【at】qq.com，欢迎来信~ 如果你对以下站点有兴趣的话，我们可以在以下网站进行相关话题的讨论交流。
 
-<Background-Netease>
+<!-- <Background-Netease>
   <FriendLink
     img="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/icons/netease.jpg"
     src="https://music.163.com/#/user/home?id=64236446"
@@ -13,7 +13,7 @@
     :nofollow="true"
     :hoverTrigger="true"
   />
-</Background-Netease>
+</Background-Netease> -->
 <!-- 
 <Background-Douban>
   <FriendLink
@@ -28,9 +28,9 @@
 
 <FriendLink
   img="https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/icons/github.svg"
-  src="https://github.com/Lionad-Morotar"
+  src="https://github.com/xxxyouthxxx"
   name="GitHub"
-  achieve="GitHub 存有本博客的源码及其它一些也许意思的东西 💻"
+  achieve="GitHub 会有像素世界全部相关项目源码 💻"
   :nofollow="true"
 />
 
