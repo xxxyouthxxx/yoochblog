@@ -10,7 +10,7 @@ const { chainMarkdown, extendMarkdown } = require('./extendMarkdown')
 const isDEV = process.env.NODE_ENV === 'development'
 
 
-const HOST = 'https://www.lionad.art'
+const HOST = ''
 // const HOST = 'https://mgear-blogs.obs-website.cn-east-3.myhuaweicloud.com'
 
 console.log(figlet.textSync("Welcome!"))
