@@ -67,14 +67,7 @@ const sidebars = [
     open: true,
     path: '/articles/',
     children: [
-      'articles/use-scrollbars',
-      'articles/crack-the-slider',
-      'articles/css-light-travel',
-      'articles/js-100',
-      'articles/css-poaa',
-      'articles/css-judge-direction',
-      'articles/css-interesting',
-      'articles/zfold',
+      
     ],
   },
   {
@@ -90,8 +83,8 @@ const sidebars = [
   },
   {
     title: '知识骨架',
-    collapsable: true,
-    open: false,
+    collapsable: false,
+    open: true,
     path: '/maps/',
     children: getSRCs(mapsDir, 'maps/'),
   }

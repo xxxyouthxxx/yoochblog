@@ -32,7 +32,7 @@
                 <div class="avatar">
                     <img
                         src="https://pic.imgdb.cn/item/63faf2daf144a01007c5728a.jpg"
-                        alt="Lionad's Avatar"
+                        alt="yooch's Avatar"
                         draggable="false"
                     />
                 </div>
@@ -107,43 +107,43 @@ export default {
                 parallax_0: {
                     sort: 0,
                     delay: 100 * 6,
-                    value: 'https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/homepage/layer_0.png',
+                    value: 'https://pic.imgdb.cn/item/6401868df144a010073d3498.png',
                     cb: () => this.$set(this.assets.parallax_0, 'done', true)
                 },
                 parallax_1: {
                     sort: 1,
                     delay: 100 * 5,
-                    value: 'https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/homepage/layer_1.png',
+                    value: 'https://pic.imgdb.cn/item/6401868ef144a010073d34fd.png',
                     cb: () => this.$set(this.assets.parallax_1, 'done', true)
                 },
                 parallax_2: {
                     sort: 2,
                     delay: 100 * 4,
-                    value: 'https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/homepage/layer_2.png',
+                    value: 'https://pic.imgdb.cn/item/6401868ef144a010073d353d.png',
                     cb: () => this.$set(this.assets.parallax_2, 'done', true)
                 },
                 parallax_3: {
                     sort: 3,
                     delay: 100 * 3,
-                    value: 'https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/homepage/layer_3.png',
+                    value: 'https://pic.imgdb.cn/item/6401868df144a010073d33ba.png',
                     cb: () => this.$set(this.assets.parallax_3, 'done', true)
                 },
                 parallax_4: {
                     sort: 4,
                     delay: 100 * 2,
-                    value: 'https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/homepage/layer_4.png',
+                    value: 'https://pic.imgdb.cn/item/6401868df144a010073d33f1.png',
                     cb: () => this.$set(this.assets.parallax_4, 'done', true)
                 },
                 parallax_5: {
                     sort: 5,
                     delay: 100 * 1,
-                    value: 'https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/homepage/layer_5.png',
+                    value: 'https://pic.imgdb.cn/item/64018692f144a010073d3e15.png',
                     cb: () => this.$set(this.assets.parallax_5, 'done', true)
                 },
                 parallax_6: {
                     sort: 6,
                     delay: 100 * 0,
-                    value: 'https://mgear-image.oss-cn-shanghai.aliyuncs.com/image/homepage/layer_6.png',
+                    value: 'https://pic.imgdb.cn/item/64018692f144a010073d3dfb.png',
                     cb: () => this.$set(this.assets.parallax_6, 'done', true)
                 }
             }

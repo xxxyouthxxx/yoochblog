@@ -10,7 +10,7 @@ const { chainMarkdown, extendMarkdown } = require('./extendMarkdown')
 const isDEV = process.env.NODE_ENV === 'development'
 
 
-const HOST = ''
+// const HOST = ''
 // const HOST = 'https://mgear-blogs.obs-website.cn-east-3.myhuaweicloud.com'
 
 console.log(figlet.textSync("Welcome!"))
@@ -44,10 +44,10 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Posts', link: '/articles/' },
-      { text: 'Links', link: '/friends/' }
-    ].concat(isDEV ? [
+      { text: 'Links', link: '/friends/' },
       { text: 'Maps', link: '/maps/' },
       { text: 'HireMe', link: '/hire-me/' },
+    ].concat(isDEV ? [
     ] : []),
     sidebar: {
       '/': sidebar.getSidebar(),
@@ -128,37 +128,6 @@ module.exports = {
         highlight: false,
         visitor: true
       }
-    },
-    'rss-feed': {
-      username: 'Lionad',
-      hostname: HOST,
-      selector: '.content__default',
-      count: 10,
-      filter: page => {
-        const shouldConvert = /^articles\/([^\/]*\.md$)/.test(page.relativePath)
-        if (/image-format/.test(page.relativePath)) {
-          return false
-        }
-        if (/error-handling/.test(page.relativePath)) {
-          return false
-        }
-        return shouldConvert
-      }
-    },
-    sitemap: {
-      hostname: HOST,
-      changefreq: 'weekly'
-    },
-    robots: {
-      host: HOST,
-      disallowAll: false,
-      sitemap: '/sitemap.xml',
-      policies: [
-        {
-          userAgent: '*',
-          disallow: ['/gists/', '/hire-me/', '/maps/']
-        }
-      ]
     },
     'vuepress-plugin-mathjax': {
       target: 'chtml',
