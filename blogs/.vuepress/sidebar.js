@@ -103,13 +103,13 @@ module.exports = {
   },
   getRecommends() {
     return {
-      心流: {
-        url: '/flows/long-night-dream.html',
-        label: '长夜梦',
+      介绍: {
+        url: '/pixel/red.html',
+        label: 'Why Yooch',
       },
       技术: {
-        url: '/articles/use-scrollbars.html',
-        label: '怎样定制复杂组件的自定义滚动条',
+        url: '/articles/README.html',
+        label: '为什么要开始写博客',
       },
     }
   }
