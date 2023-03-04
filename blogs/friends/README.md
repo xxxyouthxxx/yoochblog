@@ -27,7 +27,7 @@
 </Background-Douban> -->
 
 <FriendLink
-  img="https://my-save-pic.oss-cn-hangzhou.aliyuncs.com/github.svg?Expires=1677828409&OSSAccessKeyId=TMP.3KfN9ZPqyF8Th6bw2KB1jtjvT416Nc7bDbUcErNaoBSsXYrVeyAuoZfAdvnYoKyJh7AZwTFKqm3AwSW5oDhYF7NgVDAaWq&Signature=igA586XlfNt7OGjZ%2F%2FPzlBQolUc%3D"
+  img="E:\桌面\存储仓库\YoochBlog\blogs\.vuepress\public\github.svg"
   src="https://github.com/xxxyouthxxx"
   name="GitHub"
   achieve="GitHub 会有像素世界全部相关项目源码 💻"
