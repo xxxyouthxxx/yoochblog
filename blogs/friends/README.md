@@ -27,7 +27,7 @@
 </Background-Douban> -->
 
 <FriendLink
-  img="E:\桌面\存储仓库\YoochBlog\blogs\.vuepress\public\github.svg"
+  img="https://pic.imgdb.cn/item/64033596f144a01007caf22d.png"
   src="https://github.com/xxxyouthxxx"
   name="GitHub"
   achieve="GitHub 会有像素世界全部相关项目源码 💻"
