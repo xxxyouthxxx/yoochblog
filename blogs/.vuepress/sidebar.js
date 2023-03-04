@@ -78,6 +78,7 @@ const sidebars = [
     path: '/flows/',
     children: [
       // 'flows/brain-history',
+      'flows/TheHiddenSideOfPisces',
       
     ],
   },
