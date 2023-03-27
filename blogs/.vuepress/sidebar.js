@@ -79,7 +79,7 @@ const sidebars = [
     children: [
       // 'flows/brain-history',
       'flows/TheHiddenSideOfPisces',
-      
+      'flows/WonderfulJourney'
     ],
   },
   {
