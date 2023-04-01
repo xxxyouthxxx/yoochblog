@@ -5,10 +5,20 @@
 目录索引： [内容]-[日期]
 ## 周末！大开发 2023/04/01
 初步定下接下来的几个任务： <br>
-- [] 1. 完成商城前端基本功能的完善。
-- [] 2. 将画布的前端作为一个组件，将其与商城的前端进行整合。
-- [] 3. 将原商城项目的java后端用node和express在画布的后端中继续写。
+[x] 1. 完成商城前端基本功能的完善。
+
+ ![登陆界面](https://pic.imgdb.cn/item/6427d301a682492fcc5d4a5f.jpg)
+
+ ![注册界面](https://pic.imgdb.cn/item/6427d31ca682492fcc5d73fc.jpg)
+
+ ![夜间模式切换](https://pic.imgdb.cn/item/6427d350a682492fcc5dbca4.jpg)
+
+ ![夜间模式关闭后](https://pic.imgdb.cn/item/6427d366a682492fcc5dd921.jpg)
+
+- [] 2. 将原商城项目的java后端用node和express在画布的后端中继续写。
+- [] 3. 将画布的前端作为一个组件，将其与商城的前端进行整合。
 - [] 4. 整合数据库方式，架构采用mysql + mongodbdb + redis
+- [] 5. 整合数据库的数据关系
 ## marketplace的进一步实现细节-2023/3/30
  ![展览界面](https://pic.imgdb.cn/item/642540ada682492fcc0c03ce.jpg)
 - 目前的基本情况：展览，市场，登录，个人页面，其他的没了，需要再说
