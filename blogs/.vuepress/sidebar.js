@@ -80,7 +80,8 @@ const sidebars = [
       // 'flows/brain-history',
       'flows/TheHiddenSideOfPisces',
       'flows/LvMaoShuiGuai',
-      'flows/NowADays'
+      'flows/NowADays',
+      'flows/WhatIsTheWorld',
     ],
   },
   {

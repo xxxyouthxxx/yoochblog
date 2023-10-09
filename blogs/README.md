@@ -7,4 +7,4 @@ url: '/articles'
 footer: Yooch-Pixel / Made with 💗
 ---
 
- 像素狂热 | 保持谦虚 | 不断进步
+ 祖国昌盛 | 继续加油 | 不断进步

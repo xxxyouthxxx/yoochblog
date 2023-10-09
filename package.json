@@ -19,6 +19,8 @@
     "@vuepress/markdown": "^1.9.8",
     "debounce": "^1.2.1",
     "less-loader": "^11.1.0",
+    "npx": "^10.2.2",
+    "pnpm": "^8.8.0",
     "qrcodejs2": "0.0.2",
     "vue-fragment": "^1.6.0"
   },
