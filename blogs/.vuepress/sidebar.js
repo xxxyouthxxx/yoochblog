@@ -82,6 +82,7 @@ const sidebars = [
       'flows/LvMaoShuiGuai',
       'flows/NowADays',
       'flows/WhatIsTheWorld',
+      'flows/WhyOnlyRain',
     ],
   },
   {
