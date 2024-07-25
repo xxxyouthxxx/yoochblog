@@ -51,7 +51,7 @@ module.exports = {
     ] : []),
     sidebar: {
       '/': sidebar.getSidebar(),
-      // '/flows/': sidebar.getSidebar(),
+      '/flows/': sidebar.getSidebar(),
       // '/articles/': sidebar.getSidebar(),
       // '/awesome/': sidebar.getSidebar(),
       // '/gists/': sidebar.getSidebar(),
