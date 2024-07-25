@@ -43,15 +43,15 @@ const getSRCs = (src, prefix = '') => {
 
 const sidebars = [
   {
-    title: '像素王国 / PXIEL',
+    title: '像素 / PXIEL',
     label: '项目公告',
     collapsable: false,
     open: true,
     path: '/pixel/',
     children: [
-      'pixel/red',
+      // 'pixel/red',
       'pixel/orange',
-      'pixel/yellow',
+      // 'pixel/yellow',
       // 'pixel/green',
       // 'pixel/blue',
       // 'pixel/purple',
@@ -78,19 +78,42 @@ const sidebars = [
     path: '/flows/',
     children: [
       // 'flows/brain-history',
-      'flows/TheHiddenSideOfPisces',
+      // 'flows/TheHiddenSideOfPisces',
       'flows/LvMaoShuiGuai',
       'flows/NowADays',
-      'flows/WhatIsTheWorld',
+      // 'flows/WhatIsTheWorld',
       'flows/WhyOnlyRain',
     ],
   },
   {
-    title: '知识骨架',
+    title: '知识骨架 / Maps',
+    label: '知识骨架',
     collapsable: false,
     open: true,
     path: '/maps/',
-    children: getSRCs(mapsDir, 'maps/'),
+    children: [
+      '/maps/business/low-code',
+    ],
+  },
+  {
+    title: '傻逼日记 / journal',
+    label: '傻逼日记',
+    collapsable: false,
+    open: true,
+    path: '/journal/',
+    children: [
+      '/journal/DiaryOfAFool',
+    ],
+  },
+  {
+    title: '知识骨架 / Maps',
+    label: '知识框架',
+    collapsable: false,
+    open: true,
+    path: '/maps/',
+    children: [
+      '/maps/business/low-code',
+    ],
   }
 ]
 
@@ -104,7 +127,7 @@ module.exports = {
         url: '/pixel/red.html',
         label: 'Why Yooch',
       },
-      技术: {
+      闲聊: {
         url: '/articles/README.html',
         label: '为什么要开始写博客',
       },
