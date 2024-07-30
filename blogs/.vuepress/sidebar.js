@@ -59,7 +59,8 @@ const sidebars = [
     open: true,
     path: '/ReadMore/',
     children: [
-      
+      '/ReadMore/IntimateRelationship',
+      '/ReadMore/GoingOnALongJourneyAtTheAgeOf18'
     ],
   },
   {
@@ -109,9 +110,9 @@ module.exports = {
         url: '/pixel/red.html',
         label: 'Why Yooch',
       },
-      闲聊: {
-        url: '/articles/README.html',
-        label: '为什么要开始写博客',
+      流水账: {
+        url: '/journal/DiaryOfAFool.html',
+        label: '傻瓜日记',
       },
     }
   }

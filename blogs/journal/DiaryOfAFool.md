@@ -4,23 +4,28 @@
 
 ## 日常
 🎰这块用来记录些流水账的内容🌝🌑🌒🌓🌔🌕
+#### 2024-7-30 🌝
+
+公司的vision pro 对近视眼并不友好。
+<img src="https://pic.imgdb.cn/item/66a8bc31d9c307b7e9124212.jpg" style="zoom: 30%"   />
+
 
 #### 2024-7-27 🌒
 突然想要折腾一下，想着自己这么久都没怎么玩过，太刺激的项目我又不喜欢，静静的坐着看书我心又浮躁得不允许，索性折腾身体打开手机搜搜杭州有什么山可以去走走，就九溪了
-<img src="https://pic.imgdb.cn/item/66a6e8b5d9c307b7e9981e3d.jpg" style="zoom: 80%"   />尝试做些构图但失败了
-<img src="https://pic.imgdb.cn/item/66a6e8b0d9c307b7e998198d.jpg" style="zoom: 80%"   />他们都很开心，我也想光着脚下去玩水但是我穿着鞋子袜子不适合涉水
-<img src="https://pic.imgdb.cn/item/66a6e8bcd9c307b7e9982455.jpg" style="zoom: 80%"   />一个湖心小岛，放了几个假鹿生硬极了
-<img src="https://pic.imgdb.cn/item/66a6e8bad9c307b7e99821ff.jpg" style="zoom: 80%"   />很宁静的湖面，但是一些落叶在水面上正在腐烂，令我很无奈，反正这些树叶掉下来也没地方去，我没有权力要求他飘到别处去
-<img src="https://pic.imgdb.cn/item/66a6e8c0d9c307b7e9982775.jpg" style="zoom: 80%"   />自认为这几棵树的布局有些微妙，我尝试用手机做一些构图，我找了块大石头，弯下腰翘起屁股发现这个姿态并不会给画面带来美感，于是气急败坏的随便拍了几下就继续往下走。
-<img src="https://pic.imgdb.cn/item/66a6e8c5d9c307b7e9982bb1.jpg" style="zoom: 80%"   />是我小时候最想要得到的一种虫子应该叫做中华大扁锹，它长着大颚的模样使我非常着迷，可惜这只已经沦为蚂蚁家族的一顿美餐，类似上面趴在水面上腐烂的树叶，他们各有去处
-<img src="https://pic.imgdb.cn/item/66a6ed8fd9c307b7e99da1d0.png" style="zoom: 80%"   />山野间他们在拍婚纱照，所有的游客都在祝福他们
+<img src="https://pic.imgdb.cn/item/66a6e8b5d9c307b7e9981e3d.jpg" style="zoom: 30%"   />尝试做些构图但失败了
+<img src="https://pic.imgdb.cn/item/66a6e8b0d9c307b7e998198d.jpg" style="zoom: 30%"   />他们都很开心，我也想光着脚下去玩水但是我穿着鞋子袜子不适合涉水
+<img src="https://pic.imgdb.cn/item/66a6e8bcd9c307b7e9982455.jpg" style="zoom: 30%"   />一个湖心小岛，放了几个假鹿生硬极了
+<img src="https://pic.imgdb.cn/item/66a6e8bad9c307b7e99821ff.jpg" style="zoom: 30%"   />很宁静的湖面，但是一些落叶在水面上正在腐烂，令我很无奈，反正这些树叶掉下来也没地方去，我没有权力要求他飘到别处去
+<img src="https://pic.imgdb.cn/item/66a6e8c0d9c307b7e9982775.jpg" style="zoom: 30%"   />自认为这几棵树的布局有些微妙，我尝试用手机做一些构图，我找了块大石头，弯下腰翘起屁股发现这个姿态并不会给画面带来美感，于是气急败坏的随便拍了几下就继续往下走。
+<img src="https://pic.imgdb.cn/item/66a6e8c5d9c307b7e9982bb1.jpg" style="zoom: 30%"   />是我小时候最想要得到的一种虫子应该叫做中华大扁锹，它长着大颚的模样使我非常着迷，可惜这只已经沦为蚂蚁家族的一顿美餐，类似上面趴在水面上腐烂的树叶，他们各有去处
+<img src="https://pic.imgdb.cn/item/66a6ed8fd9c307b7e99da1d0.png" style="zoom: 30%"   />山野间他们在拍婚纱照，所有的游客都在祝福他们
 
 
 
 
 #### 2024-7-24 🌕
 和弟弟隔空拉钩
-<img src="https://pic.imgdb.cn/item/66a1bd6bd9c307b7e9f5eb57.png" style="zoom: 80%"   />
+<img src="https://pic.imgdb.cn/item/66a1bd6bd9c307b7e9f5eb57.png" style="zoom: 30%"   />
 
 #### 2024-7-22 🌕
 跑完步回家发现这天的月亮很大很圆很亮🌕
