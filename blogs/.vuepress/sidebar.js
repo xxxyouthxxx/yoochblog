@@ -43,29 +43,21 @@ const getSRCs = (src, prefix = '') => {
 
 const sidebars = [
   {
-    title: '像素 / PXIEL',
-    label: '项目公告',
+    title: '傻逼日记 / journal',
+    label: '傻逼日记',
     collapsable: false,
     open: true,
-    path: '/pixel/',
+    path: '/journal/',
     children: [
-      // 'pixel/red',
-      'pixel/orange',
-      // 'pixel/yellow',
-      // 'pixel/green',
-      // 'pixel/blue',
-      // 'pixel/purple',
-      // 'pixel/brown',
-      // 'pixel/black',
-      // 'pixel/white',
+      '/journal/DiaryOfAFool',
     ],
   },
   {
-    title: '技术博客 / Coder',
-    label: '技术',
+    title: '再读一点 / ReadMore',
+    label: '读书',
     collapsable: false,
     open: true,
-    path: '/articles/',
+    path: '/ReadMore/',
     children: [
       
     ],
@@ -96,23 +88,13 @@ const sidebars = [
     ],
   },
   {
-    title: '傻逼日记 / journal',
-    label: '傻逼日记',
+    title: '技术博客 / Coder',
+    label: '技术',
     collapsable: false,
     open: true,
-    path: '/journal/',
+    path: '/articles/',
     children: [
-      '/journal/DiaryOfAFool',
-    ],
-  },
-  {
-    title: '知识骨架 / Maps',
-    label: '知识框架',
-    collapsable: false,
-    open: true,
-    path: '/maps/',
-    children: [
-      '/maps/business/low-code',
+      
     ],
   }
 ]
