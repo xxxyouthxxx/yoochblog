@@ -31,7 +31,7 @@
             <div class="wrapper wrapper-detail">
                 <div class="avatar">
                     <img
-                        src="https://pic.imgdb.cn/item/63faf2daf144a01007c5728a.jpg"
+                        src="https://pic.imgdb.cn/item/66aae66dd9c307b7e9cdd8b4.png"
                         alt="yooch's Avatar"
                         draggable="false"
                     />

@@ -4,6 +4,47 @@
 
 ## 日常
 🎰这块用来记录些流水账的内容🌝🌑🌒🌓🌔🌕
+
+
+#### 2024-8-4 🌝
+今天继续爬山-玉皇山
+<img src="https://pic.imgdb.cn/item/66b02220d9c307b7e9bbeafb.jpg" style="zoom: 30%" >
+
+这就是入口了
+<img src="https://pic.imgdb.cn/item/66b022b7d9c307b7e9bc8dad.jpg" style="zoom: 30%" >
+
+还是这种有阶梯的比较有意思
+<img src="https://pic.imgdb.cn/item/66b022ebd9c307b7e9bcb087.jpg" style="zoom: 30%">
+
+山顶可以看见江景
+<img src="https://pic.imgdb.cn/item/66b0236fd9c307b7e9bd1165.jpg" style="zoom: 30%" >
+
+一个大井
+<img src="https://pic.imgdb.cn/item/66b0238ed9c307b7e9bd2797.jpg" style="zoom: 30%">
+
+局部有雨🌦️🌦️
+<img src="https://pic.imgdb.cn/item/66b023aad9c307b7e9bd3d54.jpg" style="zoom: 30%">
+
+看见一条很破败的小路，像是很久没人走过了，我偏要上去看看，走着走着猛地抬头看见这块像一个打坐的老者的石头，好有味道
+<img src="https://pic.imgdb.cn/item/66b023c6d9c307b7e9bd4fc5.jpg" style="zoom: 30%">
+
+局部雨还不小
+<img src="https://pic.imgdb.cn/item/66b02446d9c307b7e9be7d74.jpg" style="zoom: 30%">
+
+一只白色蝴蝶，飞起来摇摇晃晃的
+<img src="https://pic.imgdb.cn/item/66b02648d9c307b7e9c5af79.jpg" style="zoom: 30%">
+
+一只彩色外壳的甲虫，可惜它的生命结束了
+<img src="https://pic.imgdb.cn/item/66b026e5d9c307b7e9c6fc41.jpg" style="zoom: 30%">
+
+#### 2024-8-2 🌔
+很难得和同事们一起吃了一顿饭，还一起去唱歌。像我这样闷骚的人偶尔就在家吼一嗓子考虑扰民的因素故放弃。挺难得。我今天很用力的唱歌，以为越用力什么事都不会让我烦恼，其实我也知道这没什么用。
+
+阿姨问我什么时候回去，我说下周过完就回，我常说再怎么样天也不会塌，但是或许真的快塌了。
+
+#### 2024-8-1 🌔
+是一份激励吧，并不是用来取利的过往。
+
 #### 2024-7-30 🌝
 
 公司的vision pro 对近视眼并不友好。
@@ -62,6 +103,11 @@
 ## 跑步
 
 👣很长一段时间因为各种借口不去跑步，感觉精力和体质大不如前，故现在重新启动，跑一次记录一次：
+#### **2024/7/31🌕**
+
+今天的借口是有心事
+<img src="https://pic.imgdb.cn/item/66aae68dd9c307b7e9cded56.jpg"  style="zoom: 33%;" />
+
 #### **2024/7/29🌕**
 台风过了，虽然没有之前那么热但也还是很难发力,好消息是第一公里跑了5min。换了个路线都是农田里边种的玉米，呼吸的到淡淡的青草味道
 
