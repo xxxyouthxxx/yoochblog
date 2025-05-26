@@ -60,7 +60,8 @@ const sidebars = [
     path: '/ReadMore/',
     children: [
       '/ReadMore/IntimateRelationship',
-      '/ReadMore/GoingOnALongJourneyAtTheAgeOf18'
+      '/ReadMore/GoingOnALongJourneyAtTheAgeOf18',
+      '/ReadMore/HowToWinFriends&InfluencePeople',
     ],
   },
   {

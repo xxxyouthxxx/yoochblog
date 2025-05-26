@@ -25,11 +25,11 @@ module.exports = {
 
   title: 'YoochBlog',
   description:
-    'Yooch Blog 是Yooch的个人专栏。其中有技术文章和一些个人动态。',
+    'Yooch Blog 是Yooch的个人专栏。就是记录。',
   keywords: 'Yooxh,pixel,像素,开发,前端,游戏，开发进度',
   robots: 'index,archive',
   author: 'YOOCH',
-  copyright: '转载请标明来源',
+  copyright: '',
   head: headLink,
 
   shouldPrefetch: false,
